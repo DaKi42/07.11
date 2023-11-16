@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Best Game Form</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <div class="center">
+      <div class="form-box">
+         <h1>Game Enthusiast Form</h1>
+         <form method="get">
+            <label class="form-label">Name:
+               <input type="text" name="myname" placeholder="Your Name" id="name">
+            </label>
+            <label class="form-label">Email:
+               <input type="email" name="email" placeholder="YourEmail@mail.com" />
+            </label>
+            <div class="form-group">
+               <label>Date:
+                  <input type="date" name="Date" />
+               </label>
+            </div>
+            <div class="radio-group">
+               Gender:
+               <label for="Men" class="radio-label">
+                   <span>Men</span>
+                   <input type="radio" id="Men" name="Gender">
+               </label>
+               <label for="Women" class="radio-label">
+                   <span>Women</span>
+                   <input type="radio" id="Women" name="Gender">
+               </label>
+           </div>
+           
+           <div class="form-group">
+               <label>Select City:
+                  <select name="City" size="1">
+                     <optgroup label="Ukraine">
+                        <option value='Odessa' selected>Odesa</option>
+                        <option value='Kyiv'>Kyiv</option>
+                        <option value='Lviv'>Lviv</option>
+                     </optgroup>
+                     <optgroup label="Turkey">
+                        <option value="Ankara">Ankara</option>
+                        <option value="Izmir">Izmir</option>
+                        <option value="Istanbul">Istanbul</option>
+                     </optgroup>
+                  </select>
+               </label>
+            </div>
+            <div class="form-group">
+               <label>Select Hero Type:
+                  <select name="HeroType" size="1">
+                     <optgroup label="Type hero">
+                        <option value='A classic hero' selected>A classic hero</option>
+                        <option value='Anti-hero'>Anti-hero</option>
+                        <option value='Innovative hero'>Innovative hero</option>
+                        <option value='Female hero'>Female hero</option>
+                     </optgroup>
+                  </select>
+               </label>
+            </div>
+            <div>
+               <label class="form-label">Gaming Experience:
+                  <input type="number" name="number" min="0" max="120" />
+               </label>
+            </div>
+            <div class="form-button"><input type="submit" value="Submit" /></div>
+         </form>
+         <div class="info-link"><a href="#">Explore the Game</a></div>
+         <hr>
+         <div class="info-message">Discover the Ultimate Gaming Experience</div>
+      </div>
+   </div>
+</body>
+
+</html>

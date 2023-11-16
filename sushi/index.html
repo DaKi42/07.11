@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Modern Sushi Order</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <div class="container">
+      <div class="modern-box">
+         <h1>Order Your Sushi</h1>
+
+         <form method="get">
+            <label class="modern-label">Full Name:
+               <input type="text" name="full_name" placeholder="John Doe" id="FullName">
+            </label>
+            <label class="modern-label">Delivery Address:
+               <input type="text" name="delivery_address" placeholder="123 Main St, City" id="DeliveryAddress">
+            </label>
+            <label class="modern-label">Contact Number:
+               <input type="tel" name="contact_number" placeholder="+380" id="ContactNumber">
+            </label>
+            <label class="modern-label">Email Address:
+               <input type="email" name="email" placeholder="example@mail.com" />
+            </label>
+            <label class="modern-label">Number of Sushi Sticks:
+               <input type="number" name="number_of_sticks" min="1" max="12" />
+            </label>
+            <div class="modern-radio">Choose Chopstick Type:</div>
+            <div>
+               <input type="radio" id="ordinary_chopsticks" name="chopstick_type" value="Ordinary">
+               <label for="ordinary_chopsticks">Ordinary</label><br>
+               <input type="radio" id="training_chopsticks" name="chopstick_type" value="Training">
+               <label for="training_chopsticks">Training</label><br>
+            </div>
+            <div class="modern-radio">Select Sushi Type:</div>
+            <div>
+               <input type="radio" id="nori_sushi" name="sushi_type" value="Nori Sushi">
+               <label for="nori_sushi">Nori Sushi</label><br>
+               <input type="radio" id="salmon_sushi" name="sushi_type" value="Salmon Sushi">
+               <label for="salmon_sushi">Salmon Sushi</label><br>
+               <input type="radio" id="caviar_sushi" name="sushi_type" value="Caviar Sushi">
+               <label for="caviar_sushi">Caviar Sushi</label><br>
+            </div>
+            <div class="modern-radio">Include Napkins:</div>
+            <div>
+               <input type="radio" id="include_napkins_yes" name="napkins" value="yes">
+               <label for="include_napkins_yes">Yes</label><br>
+               <input type="radio" id="include_napkins_no" name="napkins" value="no">
+               <label for="include_napkins_no">No</label><br>
+            </div>
+            <label class="modern-label">Additional Comments:
+               <textarea placeholder="Any special instructions or preferences?"></textarea>
+            </label>
+            <div class="modern-button"><input type="submit" value="Place Order" /></div>
+         </form>
+         <div class="modern-inform"><a href="#">Exclusive Sushi Deals</a></div>
+         <hr>
+         <div class="modern-inform">Enjoy Your Sushi Experience!</div>
+      </div>
+   </div>
+</body>
+
+</html>

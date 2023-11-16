@@ -1,0 +1,75 @@
+body {
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+}
+
+.modern-box {
+    width: 400px;
+    border: 2px solid #3498db;
+    border-radius: 15px;
+    padding: 25px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.modern-label input,
+.modern-label textarea,
+.modern-label select {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.modern-radio {
+    margin-top: 12px;
+    font-weight: bold;
+    color: #333;
+}
+
+.modern-radio input[type="radio"],
+.modern-radio label {
+    margin: 5px 0;
+    display: inline-block;
+}
+
+.modern-button input {
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    padding: 12px;
+    background-color: #3498db;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.modern-button input:hover {
+    background-color: #2980b9;
+}
+
+.modern-inform {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+    color: #777;
+}
+
+hr {
+    margin: 20px 0;
+    border: 0;
+    border-top: 1px solid #ddd;
+}
